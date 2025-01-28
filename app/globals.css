@@ -30,6 +30,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  aspect-ratio: 317/316;
   background-image: url("../public/herobg.svg");
+}
+
+.isFeatured {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/herobg.svg");
+}
+
+.AccordionIcon {
+  transition: transform 500ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.AccordionTrigger[data-state="open"] > .AccordionIcon {
+  transform: rotate(45deg);
 }
