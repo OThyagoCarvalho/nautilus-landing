@@ -54,7 +54,7 @@ export default function Container({
           </ul>
         </div>
       </div>
-      <button className="bg-black text-base text-white font-bold min-w-60 w-full py-4 px-8 rounded-lg mt-16">
+      <button className="bg-black text-base xl:text-lg text-white font-bold min-w-60 w-full py-4 px-8 rounded-lg mt-16">
         solicite um orçamento
       </button>
     </div>

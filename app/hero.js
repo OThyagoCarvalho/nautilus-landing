@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col gap-12 lg:gap-16 py-12 lg:py-48 lg:flex-row lg:justify-between px-8 sm:px-20 lg:px-28 xl:px-40 2xl:px-52"
+      className="flex flex-col gap-12 lg:gap-16 lg:py-48 lg:flex-row lg:justify-between py-12 px-8 sm:px-20 lg:px-28 xl:px-40 2xl:px-52"
     >
       <div className="flex flex-col items-start gap-6 lg:gap-12 text-[#242424] lg:justify-center lg:max-w-[800px]">
         <h1 className="font-bold text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
