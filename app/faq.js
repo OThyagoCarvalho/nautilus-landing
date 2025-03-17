@@ -1,4 +1,4 @@
-import Accordions from "@/app/accordion";
+import Questions from "@/app/accordion";
 
 export default function Faq() {
   return (
@@ -20,14 +20,16 @@ export default function Faq() {
           você precisa saber sobre nossos serviços
         </p>
       </div>
-      <Accordions />
+      <Questions />
       <div className="text-white bg-[#0979e5] py-12 px-4 lg:p-24  rounded-lg grid gap-16 mt-6 justify-center">
         <h2 className="font-bold text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center">
           E aí, vamos construir algo incrível?
         </h2>
         <div className="w-full flex justify-center">
           <button className="bg-transparent border-2 border-white text-base xl:text-lg text-white font-bold min-w-60 w-fit py-4  px-8 rounded-lg">
-            solicite um orçamento
+          <a target="_blank" href="https://wa.me/5511932199076?text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20criar%20meu%20site%21">
+            Tire suas dúvidas
+          </a>
           </button>
         </div>
       </div>

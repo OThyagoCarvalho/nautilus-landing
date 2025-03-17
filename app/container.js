@@ -7,11 +7,13 @@ export default function Container({
   cardTitle,
   isFeatured = false,
   className,
+  price,
+  description
 }) {
   return (
     <div
       className={
-        `w-full sm:w-[440px] md:w-[568px] lg:w-80 2xl:w-full min-h-fit h-full rounded-xl p-6 lg:p-9 xl:p-12 flex flex-col shadow-lg shadow-blue-200 border-1 border-blue-200 relative ` +
+        `w-full min-h-fit h-full rounded-xl p-6 lg:p-9 xl:p-12 flex flex-col shadow-lg shadow-blue-200 border-1 border-blue-200 relative ` +
         (isFeatured && " isFeatured ")
       }
     >
@@ -30,15 +32,14 @@ export default function Container({
             ></div>
             <div className="grid items-start gap-8">
               <div className="text-lg font-normal text-gray-800">
-                Páginas estáticas para redirecionamento de leads para whatsapp,
-                instagram ou checkouts (e.g. checkout hotmart).
+                {`${description}`}
               </div>
             </div>
             <div
               id="container-body"
               className="text-4xl"
             >
-              A partir de R$399
+              {`A partir de ${price}`}
             </div>
           </div>
         </div>
@@ -55,7 +56,9 @@ export default function Container({
         </div>
       </div>
       <button className="bg-black text-base xl:text-lg text-white font-bold min-w-60 w-full py-4 px-8 rounded-lg mt-16">
-        solicite um orçamento
+        <a target="_blank" href="https://wa.me/5511932199076?text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20criar%20meu%20site%21">
+          solicite um orçamento
+        </a>
       </button>
     </div>
   );

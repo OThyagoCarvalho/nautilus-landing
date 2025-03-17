@@ -14,7 +14,9 @@ export default function Hero() {
         </p>
 
         <button className="bg-[#0979e5]  text-xl lg:text-2xl 2xl:text-3xl text-white font-bold min-w-60 w-full py-4  px-8 rounded-lg lg:w-fit">
+        <a target="_blank" href="https://wa.me/5511932199076?text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20criar%20meu%20site%21">
           solicite um orçamento
+        </a>
         </button>
       </div>
       <div className="w-full flex items-center justify-center lg:max-w-[700px]">

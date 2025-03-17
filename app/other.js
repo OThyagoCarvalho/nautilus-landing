@@ -13,7 +13,7 @@ export default function Other() {
       <div className="flex flex-col lg:flex-row justify-end gap-6 text-left md:text-right">
         <div className="flex flex-col items-start md:items-end">
           <p className="text-xl font-light text-gray-700 text-balance">
-            menor custo por leads
+            menor custo por cliente
           </p>
           <h4 className="text-7xl font-bold text-[#0979E5] "> 5x</h4>
         </div>
