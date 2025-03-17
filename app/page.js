@@ -140,14 +140,14 @@ export default function Home() {
                 instagram ou checkouts (e.g. checkout hotmart)."
             bgColor="#C1DDF8"
             items={basic}
-            cardTitle={"Basic / Influencer"}
+            cardTitle={"Autônomo / Influencer"}
           />
           <Container
-            price="R$499"
+            price="R$599"
             description="Ideal para sites institucionais, lojas de ecommerce ou outras ideias mais complexas"
             bgColor="#C1DDF8"
             items={pro}
-            cardTitle={"Pro / Enterprise"}
+            cardTitle={"Enterprise / Shop"}
             isFeatured={true}
           />
           <Container
